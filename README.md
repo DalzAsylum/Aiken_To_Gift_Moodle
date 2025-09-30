@@ -14,10 +14,22 @@
 - Output: `quiz_gift.txt`
 
 ## Why (pedagogical story)
-A tiny example of **“how to use AI for pedagogy”**: integrate into **existing practices** (plain‑text AIKEN) so teachers can do better without being locked into new workflows.
+This project is more than just a script — it’s a tiny but powerful example of how AI can support pedagogy without alienating teachers or forcing them into rigid workflows.
+I started with a simple problem:
+I was using the AIKEN format for Moodle quizzes because it’s easy to write in plain text. But AIKEN has a big limitation: it doesn’t allow relative grading out of the box. For example, I wanted a fair scoring system like:
+
++1 for the correct answer
+−1/(N−1) for each wrong answer
+
+This is impossible to achieve with a standard AIKEN import in Moodle.
+So, instead of giving up or switching to a complex tool, I decided to integrate AI into my workflow. I worked with Copilot to design and build this script step by step. It was a real co-creation process: I brought the teaching context and constraints, Copilot brought the coding power. Together, we iterated, tested, and refined until it worked.
+And it worked so well that I thought:
+Why keep it for myself?
+I’m sharing it so other educators can benefit, adapt, and improve it. This is open source because pedagogy should be open, collaborative, and empowering.
+💡 Key idea: AI should augment teachers, not lock them into bubbles or alien workflows. This tool respects existing practices (plain-text AIKEN) and makes them better with minimal friction.
 
 ## Credits
-- Grenoble Ecole de Management  
+- Grenoble Ecole de Management for the time I could spend on this and for providing me access to Copilot  
 - Pierre DAL ZOTTO (aka *DalzAsylum*)
 
 ## License

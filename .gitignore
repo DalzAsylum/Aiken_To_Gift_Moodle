@@ -1,0 +1,8 @@
+*.spec
+__pycache__/
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
+*_gift.txt

@@ -29,8 +29,7 @@ I’m sharing it so other educators can benefit, adapt, and improve it. This is 
 💡 Key idea: AI should augment teachers, not lock them into bubbles or alien workflows. This tool respects existing practices (plain-text AIKEN) and makes them better with minimal friction.
 
 ## Credits
-- Grenoble Ecole de Management for the time I could spend on this and for providing me access to Copilot  
-- Pierre DAL ZOTTO (aka *DalzAsylum*)
+- My thanks to Grenoble Ecole de Management for the time I could spend on this and for providing me access to Copilot  
 
 ## License
 This project is released under **GNU GPL v3.0 or later**. See `LICENSE`.

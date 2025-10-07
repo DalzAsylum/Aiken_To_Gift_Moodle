@@ -5,12 +5,13 @@
 ## Why (my own problem)
 This project is more than just a script — it’s a tiny but powerful example of how AI can support pedagogy without alienating teachers or forcing them into rigid workflows.
 I started with a simple problem:
-I was using the AIKEN format for Moodle quizzes because it’s easy to write in plain text. But AIKEN has a big limitation: it doesn’t allow relative grading out of the box. For example, I wanted a fair scoring system like:
+I was using the AIKEN format for Moodle quizzes because it’s easy to write in plain text.
+-> But AIKEN has a big limitation: it doesn’t allow relative grading out of the box. For example, I wanted a fair scoring system like:
 
 +1 for the correct answer
 −1/(N−1) for each wrong answer
 
-This is impossible to achieve with a standard AIKEN import in Moodle.
+This is impossible to achieve with a standard AIKEN import in Moodle (https://github.com/moodle/moodle).
 So, instead of giving up or switching to a complex tool, I decided to integrate AI into my workflow. I worked with Copilot to design and build this script step by step. It was a real co-creation process: I brought the teaching context and constraints, Copilot brought the coding power. Together, we iterated, tested, and refined until it worked.
 And it worked so well that I thought:
 Why keep it for myself?
